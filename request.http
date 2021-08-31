@@ -1,0 +1,248 @@
+POST https://localhost HTTP/1.1 
+content-type: application/json
+
+{     
+  "index": "ca-dashboard-oap-asset",
+  "records": [
+    {
+      "templateType": "Combi",
+      "country": "Norway",
+      "sourceAudioFileStatus": "Available",
+      "modifiedAt": "2021-07-29T08:00:00.000Z",
+      "mediaId": null,
+      "type": "Shows",
+      "episodeNumber": null,
+      "isMetadataUpdateRequired": false,
+      "iconikObjectIds": {
+        "sourceAudioAssetId": "4a461ac4-edf6-11eb-86fb-0a580a313e05",
+        "showTitleCollectionId": "b046117a-eded-11eb-94ab-0a580a314fd1",
+        "episodeCollectionId": "b0d4c794-eded-11eb-aeb7-0a580a30742f",
+        "sourceVideoAssetId": "c9778746-eded-11eb-b32a-0a580a328b0a",
+        "outputAssetId": "4a849e84-edf6-11eb-b7ca-0a580a328b0a",
+        "mediaAssetCollectionId": "b12dec84-eded-11eb-9971-0a580a32d9bf",
+        "seasonCollectionId": "b0975fc6-eded-11eb-8f27-0a580a30244c",
+        "sponsorAssetId": null,
+        "outputCollectionId": "b177bfe4-eded-11eb-b6ea-0a580a32ea0e"
+      },
+      "mediaAssetId": "NO0000000004427710038001",
+      "duration": "15",
+      "createdAt": "2021-07-26T08:44:27.263Z",
+      "promoAssetStatus": "Pending Upload",
+      "modifiedBy": "ca-oap-getOnlineAssets-EU-dev",
+      "promotedChannel": "TV Norge",
+      "comments": "New Version Type - Audio File Pending Upload",
+      "associatedFiles": {
+        "sourceAudioFileName": "tvn_NO0000000004427710038002_Today_15.wav",
+        "outputFilename": "NO0000000004427710038002_X_tvn_Over_atlanten_Test26Jul_s01_prelaunch_15_seasonpremiere_Sunday_21:00_streamalreadynow.mxf",
+        "titleArtFileName": "Over_atlanten_Test26Jul_s01_titleart.png",
+        "sponsorFileName": "",
+        "sourceVideoFileName": "tvn_NO0000000004427710038002_15.mxf",
+        "keyArtFileName": "Over_atlanten_Test26Jul_s01_image.jpg"
+      },
+      "promoXMLId": "4931a4a0-edf6-11eb-b339-8309b94d28a4",
+      "seasonNumber": "S01",
+      "wochitRenditionStatus": "Not Started",
+      "wochitVideoId": null,
+      "userName": "Peter Rothoff Hojholt",
+      "sourceVideoFileStatus": "Available",
+      "createdBy": "ca-oap-processQueueEvent-EU-dev",
+      "showTitle": "Atlantin yli Test26Jul",
+      "outputFileStatus": "Not Available",
+      "promoXMLName": "promo_generation_NO_20210726_versiontype_v7.3.xml",
+      "xmlMetadata": {
+        "data": [
+          "Object"
+        ]
+      },
+      "subType": "prelaunch",
+      "trailerId": "1627627121038004",
+      "sponsorFileStatus": "Not Required"
+    } 
+  ]
+}
+
+#####
+POST https://ca-dashboard-backend-alb-dev-1451934382.eu-west-1.elb.amazonaws.com HTTP/1.1 
+content-type: application/json
+x-custom-header: ca-dashboard-alb-dev-1451934382
+
+{
+  "dummy": "message"
+}
+
+#####
+POST https://ca-dashboard-backend-alb-dev-1451934382.eu-west-1.elb.amazonaws.com HTTP/1.1 
+content-type: application/json
+x-custom-header: ca-dashboard-alb-dev-1451934382
+
+{
+  "index": "ca-dashboard-oap-asset",
+  "records": [
+    {
+      "templateType": "Combi",
+      "country": "Norway",
+      "sourceAudioFileStatus": "Available",
+      "modifiedAt": "2021-07-29T08:00:00.000Z",
+      "mediaId": null,
+      "type": "Shows",
+      "episodeNumber": null,
+      "isMetadataUpdateRequired": false,
+      "iconikObjectIds": {
+        "sourceAudioAssetId": "4a461ac4-edf6-11eb-86fb-0a580a313e05",
+        "showTitleCollectionId": "b046117a-eded-11eb-94ab-0a580a314fd1",
+        "episodeCollectionId": "b0d4c794-eded-11eb-aeb7-0a580a30742f",
+        "sourceVideoAssetId": "c9778746-eded-11eb-b32a-0a580a328b0a",
+        "outputAssetId": "4a849e84-edf6-11eb-b7ca-0a580a328b0a",
+        "mediaAssetCollectionId": "b12dec84-eded-11eb-9971-0a580a32d9bf",
+        "seasonCollectionId": "b0975fc6-eded-11eb-8f27-0a580a30244c",
+        "sponsorAssetId": null,
+        "outputCollectionId": "b177bfe4-eded-11eb-b6ea-0a580a32ea0e"
+      },
+      "mediaAssetId": "NO0000000004427710038001",
+      "duration": "15",
+      "createdAt": "2021-07-26T08:44:27.263Z",
+      "promoAssetStatus": "Pending Upload",
+      "modifiedBy": "ca-oap-getOnlineAssets-EU-dev",
+      "promotedChannel": "TV Norge",
+      "comments": "New Version Type - Audio File Pending Upload",
+      "associatedFiles": {
+        "sourceAudioFileName": "tvn_NO0000000004427710038002_Today_15.wav",
+        "outputFilename": "NO0000000004427710038002_X_tvn_Over_atlanten_Test26Jul_s01_prelaunch_15_seasonpremiere_Sunday_21:00_streamalreadynow.mxf",
+        "titleArtFileName": "Over_atlanten_Test26Jul_s01_titleart.png",
+        "sponsorFileName": "",
+        "sourceVideoFileName": "tvn_NO0000000004427710038002_15.mxf",
+        "keyArtFileName": "Over_atlanten_Test26Jul_s01_image.jpg"
+      },
+      "promoXMLId": "4931a4a0-edf6-11eb-b339-8309b94d28a4",
+      "seasonNumber": "S01",
+      "wochitRenditionStatus": "Not Started",
+      "wochitVideoId": null,
+      "userName": "Peter Rothoff Hojholt",
+      "sourceVideoFileStatus": "Available",
+      "createdBy": "ca-oap-processQueueEvent-EU-dev",
+      "showTitle": "Atlantin yli Test26Jul",
+      "outputFileStatus": "Not Available",
+      "promoXMLName": "promo_generation_NO_20210726_versiontype_v7.3.xml",
+      "xmlMetadata": {
+        "data": [
+          "Object"
+        ]
+      },
+      "subType": "prelaunch",
+      "trailerId": "thaison-test",
+      "sponsorFileStatus": "Not Required"
+    } 
+  ]
+}
+
+
+#####
+POST https://ca-dashboard-backend-alb-dev-1451934382.eu-west-1.elb.amazonaws.com HTTP/1.1 
+content-type: application/json
+
+{
+  "index": "ca-dashboard-oap-xml",
+  "records": [
+    {
+      "country": "Sweden",
+      "comments": "Successfully Validated",
+      "modifiedAt": "2021-08-25T02:26:59.436Z",
+      "filePath": "eu/dev/whatson/data/archive/427780012444007.xml",
+      "userName": "Peter Rothoff Hojholt",
+      "dataSourceName": "WHATS_ON",
+      "dataFileName": "427780012444007.xml",
+      "createdAt": "2021-08-25T02:26:59.436Z",
+      "createdBy": "ca-oap-processS3Event-EU-dev",
+      "modifiedBy": "ca-oap-processS3Event-EU-dev",
+      "ID": "ecb4a2f0-054b-11ec-b6f5-3ddad150ceb3",
+      "dataSourceStatus": "Validated",
+      "errors": {}
+    },
+    {
+      "country": "Sweden",
+      "comments": "XML file is parsing",
+      "modifiedAt": "2021-08-25T02:27:00.118Z",
+      "filePath": "eu/dev/whatson/data/archive/427780012444007.xml",
+      "userName": "Peter Rothoff Hojholt",
+      "dataSourceName": "WHATS_ON",
+      "dataFileName": "427780012444007.xml",
+      "createdAt": "2021-08-25T02:26:59.436Z",
+      "createdBy": "ca-oap-processS3Event-EU-dev",
+      "modifiedBy": "ca-oap-processQueueEvent-EU-dev",
+      "ID": "ecb4a2f0-054b-11ec-b6f5-3ddad150ceb3",
+      "dataSourceStatus": "Processing",
+      "errors": {}
+    },
+    {
+      "country": "Sweden",
+      "comments": "XML file is processed",
+      "modifiedAt": "2021-08-25T02:27:00.209Z",
+      "filePath": "eu/dev/whatson/data/archive/427780012444007.xml",
+      "userName": "Peter Rothoff Hojholt",
+      "dataSourceName": "WHATS_ON",
+      "dataFileName": "427780012444007.xml",
+      "createdAt": "2021-08-25T02:26:59.436Z",
+      "createdBy": "ca-oap-processS3Event-EU-dev",
+      "modifiedBy": "ca-oap-processQueueEvent-EU-dev",
+      "ID": "ecb4a2f0-054b-11ec-b6f5-3ddad150ceb3",
+      "dataSourceStatus": "Finished",
+      "errors": {}
+    }
+  ]
+}
+
+
+#####
+POST http://localhost:5000 HTTP/1.1 
+content-type: application/json
+
+{
+  "index": "ca-dashboard-oap-xml",
+  "records": [{
+    "country": "Norway",
+    "comments": "XML file is processed",
+    "modifiedAt": "2021-07-30T08:33:11.399Z",
+    "filePath": "eu/dev/whatson/data/promo_generation_NO_prelaunch_combi-dev-1627633971540-AUTO.xml",
+    "userName": "Peter Rothoff Hojholt",
+    "dataSourceName": "WHATS_ON",
+    "dataFileName": "promo_generation_NO_prelaunch_combi-dev-1627633971540-AUTO.xml",
+    "createdAt": "2021-07-30T08:32:59.939Z",
+    "createdBy": "ca-oap-processS3Event-EU-dev",
+    "modifiedBy": "ca-oap-createIconikStructure-EU-dev",
+    "ID": "bf774e90-f110-11eb-a19a-812bdd1e633b",
+    "dataSourceStatus": "Failed",
+    "errors": {}
+  }]
+}
+
+
+#####
+POST http://localhost:5000 HTTP/1.1 
+content-type: application/json
+
+{
+  "index": "ca-dashboard-some",
+  "records": [{
+    "country": "NORWAY",
+    "modifiedAt": "2021-07-30T13:31:49.990Z",
+    "seriesName": "QA Series",
+    "isRenditionMoved": "false",
+    "wochitRenditionStatus": "PROCESSING",
+    "iconikUserName": "Rohan_Mundkur@discovery.com",
+    "userName": "Admin",
+    "assetType": "VIDEO",
+    "createdAt": "2021-06-15T15:03:48.371Z",
+    "episodeCollectionId": "724cc7d4-3861-11eb-9eb6-0a580a3c0e2c",
+    "wochitRenditionReferenceId": "bc0fae91-72cd-4274-ab45-e1d84c76765e",
+    "createdBy": "step-createWochitMappings-EU-prod",
+    "renditionAssetId": "e34b05ee-cdea-11eb-8127-0a580a307413",
+    "renditionStatus": "PROCESSING",
+    "seasonCollectionId": "6dc6b6a2-3861-11eb-a2f5-0a580a3c1042",
+    "modifiedBy": "ca-iconik-UpdateVideoState-api-EU-prod",
+    "ID": "fccfff06-834d-476d-ad5c-52057b0de4b1",
+    "mamAssetInfoReferenceId": "03de3dc6-87c8-11eb-a434-0a580a3d6669",
+    "outputCollectionId": "653f8772-a7bd-11eb-9f87-0a580a313352",
+    "seriesCollectionId": "683e6036-3861-11eb-bda3-0a580a3c1042",
+    "renditionFileName": "Prod NO Dplus All Std Bolt-on No-Strap-dplus_standard_bolton_2x3-No Strap-COT-1623769391820-CTA-1623769391825-bc0fa.mp4"
+  }]
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1628499736287" clover="3.2.0">
+  <project timestamp="1628499736287" name="All files">
+    <metrics statements="56" coveredstatements="56" conditionals="33" coveredconditionals="33" methods="13" coveredmethods="13" elements="102" coveredelements="102" complexity="0" loc="56" ncloc="56" packages="2" files="2" classes="2"/>
+    <package name="auth">
+      <metrics statements="53" coveredstatements="53" conditionals="33" coveredconditionals="33" methods="13" coveredmethods="13"/>
+      <file name="Authenticator.ts" path="/Users/thaisonnguyen/git/repo/ca-dashboard/work/ca-dashboard-container/src/auth/Authenticator.ts">
+        <metrics statements="53" coveredstatements="53" conditionals="33" coveredconditionals="33" methods="13" coveredmethods="13"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="19" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="43" count="6" type="cond" truecount="10" falsecount="0"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="50" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="6" type="stmt"/>
+        <line num="71" count="6" type="cond" truecount="5" falsecount="0"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="88" count="3" type="stmt"/>
+        <line num="89" count="3" type="stmt"/>
+        <line num="90" count="3" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="103" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="106" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="107" count="1" type="stmt"/>
+        <line num="109" count="2" type="stmt"/>
+        <line num="120" count="3" type="stmt"/>
+        <line num="121" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="122" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="123" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="124" count="1" type="stmt"/>
+        <line num="125" count="2" type="stmt"/>
+        <line num="129" count="3" type="stmt"/>
+        <line num="131" count="3" type="stmt"/>
+        <line num="132" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Logger.ts" path="/Users/thaisonnguyen/git/repo/ca-dashboard/work/ca-dashboard-container/src/utils/Logger.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

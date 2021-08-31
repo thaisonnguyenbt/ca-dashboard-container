@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trailers countryCode="FI" username="Peter Rothoff Hojholt">
+    <trailer id="000000000002901">
+        <title>X tv5_Qa Shows_s03_e08_30_seasonprem_Monday_20:30_streamalleps</title>
+        <mediaAsset>FI109238745600001</mediaAsset>
+        <mediaID>729939_1</mediaID>
+        <showTitle>Socket test</showTitle>
+        <promotedChannel>tv5</promotedChannel>
+        <duration>30</duration>
+        <versionType>Monday</versionType>
+        <seasonNumber>3</seasonNumber>
+        <episodeNumber>8</episodeNumber>
+        <associatedFiles>
+            <videoFile>tv5_FI109238745600001_30.mxf</videoFile>
+            <audioFile>tv5_FI109238745600001_Monday_30.wav</audioFile>
+            <outputFilename>FI109238745600001_X_tv5_Qa_Shows_s03_e08_30_seasonprem_Monday_20:30_streamalleps.mxf
+            </outputFilename>
+            <sponsorTail></sponsorTail>
+            <keyartOrImage>Qa_Shows_s03_image.jpg</keyartOrImage>
+            <titleArt>Qa_Shows_s03_titleart.png</titleArt>
+        </associatedFiles>
+    </trailer>
+    <trailer id="000000000002902">
+        <title>X frii_Qa Seasons_s01_teaser_30_seasonpremiere_+X5432_tuesday_20:00_sae</title>
+        <branding>original</branding>
+        <disclaimer>Terms &amp; conditions apply.</disclaimer>
+        <mediaAsset>FI109238745600002</mediaAsset>
+        <mediaID>845654_1</mediaID>
+        <showTitle>SOCKET TEST 290</showTitle>
+        <promotedChannel>frii</promotedChannel>
+        <duration>25</duration>
+        <versionType>tuesday</versionType>
+        <seasonNumber>1</seasonNumber>
+        <associatedFiles>
+            <videoFile>frii_FI109238745600002_25.mxf</videoFile>
+            <audioFile>frii_FI109238745600002_tuesday_25.wav</audioFile>
+            <outputFilename>
+                FI109238745600002_X_frii_Qa_seasons_s01_teaser_30_seasonpremiere_+X5432_tuesday20:00_sae.mxf
+            </outputFilename>
+            <sponsorTail>SPONS_5s_67485_1.mxf</sponsorTail>
+            <keyartOrImage>Qa_seasons_s01_image.jpg</keyartOrImage>
+            <titleArt>Qa_seasons_s01_titleart.png</titleArt>
+        </associatedFiles>
+    </trailer>
+    <trailer id="000000000002903">
+        <title>X kut_Qa_film_30_wed_20:30_now</title>
+        <disclaimer>Kutonen voidaan suoratoistaa suorana discovery+</disclaimer>
+        <mediaAsset>FI109238745600003</mediaAsset>
+        <mediaID>735268_1</mediaID>
+        <showTitle>SOCKET TEST 290</showTitle>
+        <promotedChannel>kut</promotedChannel>
+        <duration>30</duration>
+        <versionType>wed</versionType>
+        <associatedFiles>
+            <videoFile>kut_FI109238745600003_30.mxf</videoFile>
+            <audioFile>kut_FI109238745600003_wed_30.wav</audioFile>
+            <outputFilename>FI00000000000290100005132236_X_kut_Qa_film_30_wed_20:30_now.mxf
+            </outputFilename>
+            <sponsorTail></sponsorTail>
+            <keyartOrImage>Qa_image.jpg</keyartOrImage>
+            <titleArt>Qa_titleart.png</titleArt>
+        </associatedFiles>
+    </trailer>
+    <trailer id="000000000002904">
+        <title>X tv5_Qa Bundle_s06_bundle01_30_e01e02_neweps_Thursdays_22:00_dpsae</title>
+        <branding>original</branding>
+        <mediaAsset>FI109238745600004</mediaAsset>
+        <showTitle>SOCKET TEST 290</showTitle>
+        <promotedChannel>tv5</promotedChannel>
+        <duration>30</duration>
+        <versionType>Thursdays</versionType>
+        <seasonNumber>6</seasonNumber>
+        <episodeNumber>1</episodeNumber>
+        <associatedFiles>
+            <videoFile>tv5_FI109238745600004_30.mxf</videoFile>
+            <audioFile>tv5_FI109238745600004_Thursdays_30.wav</audioFile>
+            <outputFilename>FI109238745600004_X_4_Qa_bundle_s06_bundle01_30_e01e02_neweps_Thursdays_22:00_dpsae.mxf
+            </outputFilename>
+            <sponsorTail></sponsorTail>
+            <keyartOrImage>Qa_bundle_s06_image.jpg</keyartOrImage>
+            <titleArt>Qa_bundle_s06_titleart.png</titleArt>
+        </associatedFiles>
+    </trailer>
+    <trailer id="000000000002905">
+        <title>X dp_QA Seasons_s18_prelaunch_15_newseason_27may</title>
+        <mediaAsset>FI109238745600005</mediaAsset>
+        <showTitle>SOCKET TEST 290</showTitle>
+        <promotedChannel>dp</promotedChannel>
+        <duration>15</duration>
+        <versionType>Date</versionType>
+        <seasonNumber>18</seasonNumber>
+        <associatedFiles>
+            <videoFile>dp_FI109238745600005_15.mxf</videoFile>
+            <audioFile>dp_FI109238745600005_Date_15.wav</audioFile>
+            <outputFilename>FI109238745600005_X_dp_Qa_seasons_s18_prelaunch_15_newseason_27may.mxf</outputFilename>
+            <sponsorTail></sponsorTail>
+            <keyartOrImage>Qa_seasons_s18_image.jpg</keyartOrImage>
+            <titleArt>Qa_seasons_s18_titleart.png</titleArt>
+        </associatedFiles>
+    </trailer>
+    <trailer id="000000000002906">
+        <title>X dp_Qa Seasons_s18_launch_15_newseason_27may</title>
+        <mediaAsset>FI109238745600006</mediaAsset>
+        <showTitle>SOCKET TEST 290</showTitle>
+        <promotedChannel>dp</promotedChannel>
+        <duration>15</duration>
+        <versionType>Date</versionType>
+        <seasonNumber>18</seasonNumber>
+        <associatedFiles>
+            <videoFile>dp_FI109238745600006_15.mxf</videoFile>
+            <audioFile>dp_FI109238745600006_Date_15.wav</audioFile>
+            <outputFilename>FI109238745600006_X_dp_Qa_seasons_s18_launch_15_newseason_27may.mxf</outputFilename>
+            <sponsorTail></sponsorTail>
+            <keyartOrImage>Qa_seasons_s18_image.jpg</keyartOrImage>
+            <titleArt>Qa_seasons_s18_titleart.png</titleArt>
+        </associatedFiles>
+    </trailer>
+    <trailer id="000000000002907">
+        <title>X dp_QA Generic_s18_gen02_15_e05e10_premiere_dpsas</title>
+        <mediaAsset>FI109238745600007</mediaAsset>
+        <mediaID>845456_1</mediaID>
+        <showTitle>SOCKET TEST 290</showTitle>
+        <promotedChannel>dp</promotedChannel>
+        <duration>15</duration>
+        <versionType>fridays</versionType>
+        <seasonNumber>18</seasonNumber>
+        <associatedFiles>
+            <videoFile>dp_FI109238745600007_15.mxf</videoFile>
+            <audioFile>dp_FI109238745600007_fridays_15.wav</audioFile>
+            <outputFilename>FI109238745600007_X_dp_Qa_generic_s18_gen02_15_e05e10_premiere_dpsas.mxf</outputFilename>
+            <sponsorTail></sponsorTail>
+            <keyartOrImage>Qa_generic_s18_image.jpg</keyartOrImage>
+            <titleArt>Qa_generic_s18_titleart.png</titleArt>
+        </associatedFiles>
+    </trailer>
+    <trailer id="000000000002908">
+        <title>X kut_Over atlanten_s01_teaser_30_+X5432_nxtSunday</title>
+        <branding>original</branding>
+        <disclaimer>Terms &amp; conditions apply.</disclaimer>
+        <mediaAsset>FI109238745600008</mediaAsset>
+        <mediaID>845654_1</mediaID>
+        <showTitle>SOCKET TEST 290</showTitle>
+        <promotedChannel>kut</promotedChannel>
+        <duration>25</duration>
+        <versionType>nxtSunday</versionType>
+        <seasonNumber>1</seasonNumber>
+        <associatedFiles>
+            <videoFile>kut_FI109238745600008_25.mxf</videoFile>
+            <audioFile>kut_FI109238745600008_nxtSunday_25.wav</audioFile>
+            <outputFilename>FI109238745600008_X_kut_Over_atlanten_s01_teaser_30_+X5432_nxtSunday.mxf</outputFilename>
+            <sponsorTail>SPONS_5s_67485_1.mxf</sponsorTail>
+            <keyartOrImage>Over_atlanten_s01_image.jpg</keyartOrImage>
+            <titleArt>Over_atlanten_s01_titleart.png</titleArt>
+        </associatedFiles>
+    </trailer>
+</trailers>
